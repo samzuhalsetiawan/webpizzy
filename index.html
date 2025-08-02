@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>WebPizzy</title>
+   <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <div class="source-selection-group">
+      <h3>Please select image source:</h3>
+      <div class="source-selection-option">
+         <input type="radio" name="source" id="url" checked>
+         <label for="url">From URL</label>
+      </div>
+      <div class="source-selection-option">
+         <input type="radio" name="source" id="file">
+         <label for="file">From device file</label>
+      </div>
+   </div>
+   <div class="input-group">
+      <input type="text" id="url-input" placeholder="Enter URL here">
+      <input class="hidden" type="file" accept="image/*" id="file-input">
+   </div>
+   <button id="generate-btn">Generate</button>
+   <div class="result"></div>
+   <script src="./script.js"></script>
+</body>
+</html>
