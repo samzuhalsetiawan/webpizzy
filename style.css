@@ -33,3 +33,9 @@ body {
 #generate-btn {
    padding: 0.5em 1em;
 }
+.result > a {
+   display: block;
+   margin-top: 1em;
+   text-decoration: none;
+   color: #007bff;
+}
